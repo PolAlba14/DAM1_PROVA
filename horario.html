@@ -1,106 +1,151 @@
 <!DOCTYPE html>
-<html>
-<style>
-table, th ,td {
-	border :1px solid black;
-     border-collapse:collapse;
-}
-background-color: #8a2be1;
-color: black;
-.bd {
-background-color: #fea500;
-color: black;
-}
-.lmsgi {
-background-color: #8a2be2;
-color: black;
-}
-.tut {
-background-color: #008201;
-color: black;
-}
-.bd {
-background-color: #ffa500;
-color: black;
-}
+<html> 
+<head>
 
-.ipoi {
-background-color: #02fcff;
-color: black;
-}
+    <title>Horari</title>
+    <style>
+       
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
 
-.ped {
-background-color: #afff2a;
-color: black;
-}
-.si {
-background-color: #ff00fe;
-color: black;
-}
-.diw {
-background-color: #8cff88;
-color: black;
-}
-.ang {
-background-color: #a02c2c;
-color: black;
-}
-</style>
+        table {
+            width: 100%;
+        }
 
+        th {
+            background-color: #80fa83;
+            color: black;
+            padding: 30px;
+            font-size: px;
+            text-transform: lowercase;
+        }
+
+        td {
+            padding: 10px;
+            width: 180px;
+        }
+
+        
+        .lmsgi {
+            background-color: #ffc0cb;
+        }
+
+        .bd {
+            background-color: #fff8dc;
+        }
+
+        .ped {
+            background-color: #659b9d;
+        }
+
+        .tut {
+            background-color: #6a96d7;
+        }
+
+        .ang {
+            background-color: #ffd407;
+        }
+
+        .si {
+            background-color: #ffff01;
+        }
+
+        .diw {
+            background-color: #ff7f50;
+        }
+
+        .ipoi {
+            background-color: #dc143b;
+        }
+
+        .descans {
+            text-align: center;
+            background-color: white;
+            font-weight: bold;
+            color: black;
+        }
+
+        
+        h2 {
+            text-align: center;
+            color: blue;
+            font-size: 32px;
+        }
+
+        
+        h3 {
+            text-align: center;
+            color: #ffaa00;
+            font-size: 20px;
+        }
+
+       
+        body {
+            front-family: Arial, sans-serif:
+            padding: 15px;
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
 <body>
 
-<h2>HORARIS</h2>
+<h2>Horari</h2>
+<h3>Curs 24-25</h3>
 
-<table style="width:100%">
-<tr>
-  <th></th>
-  <th>DILLUNS</th>
-  <th>DIMARTS</th>
-  <th>DIMECRES</th>
-  <th>DIJOUS</th>
-  <th>DIVENDRES</th>
-</tr>
-<tr>
-  <td>8:00-9:00</td>
-  <td class="lmsgi" rowspan="2">LMSGI</td>
-  <td class="bd" rowspan="2">BD</td>
-  <td class="ped" rowspan="2">P+ED</td>
-  <td class="si" rowspan="2">SI</td>
-  <td class="bd" rowspan="2">BD</td>
-</tr>
-<tr>
-  <td>9:00-10:00</td>
-</tr>
-<tr>
-  <td>10:00-11:00</td>
-  <td class="ped">P+ED</td>
-  <td class="tut" >TUT</td>
-  <td class="ang" >AN</td>
-  <td class="ped">P+ED</td>
-  <td class="ped">P+ED</td>
-</tr>
-<tr>
-  <td>DESCANS</td>
-  <td colspan="5"></td>
-</tr>
-<tr>
-  <td>11:30-12:30</td>
-  <td class="ped">P+ED</td>
-  <td class="diw" rowspan="2">DIW</td>
-  <td class="ipoi" rowspan="2">IPOI</td>
-  <td class="ped">P+ED</td>
-  <td class="ped">P+ED</td>
-</tr>
-<tr>
-  <td>12:30-13:30</td>
-  <td class="ipoi" >IPOI</td>
-  <td class="ang" >AN</td>
-  <td class="si" >SI</td>
-</tr>
+<table>
+    <tr>
+        <th></th>
+        <th>dilluns</th>
+        <th>dimarts</th>
+        <th>dimecres</th>
+        <th>dijous</th>
+        <th>divendres</th>
+    </tr>
+    <tr>
+        <td>8:00 - 9:00</td>
+        <td class="lmsgi" rowspan="2">LMSGI</td>
+        <td class="bd" rowspan="2">BD</td>
+        <td class="ped" rowspan="2">P+ED</td>
+        <td class="si" rowspan="2">SI</td>
+        <td class="bd" rowspan="2">BD</td>
+    </tr>
+    <tr>
+        <td>9:00 - 10:00</td>
+    </tr>
+    <tr>
+        <td>10:00 - 11:00</td>
+        <td class="ped">P+ED</td>
+        <td class="tut">TUT</td>
+        <td class="ang">AN</td>
+        <td class="ped">P+ED</td>
+        <td class="ped">P+ED</td>
+    </tr>
+    <tr>
+        <td colspan="6" class="descans">Descans</td>
+    </tr>
+    <tr>
+        <td>11:30 - 12:30</td>
+        <td class="ped">P+ED</td>
+        <td class="diw" rowspan="2">DIW</td>
+        <td class="ipoi" rowspan="2">IPOI</td>
+        <td class="ped">P+ED</td>
+        <td class="ped">P+ED</td>
+    </tr>
+    <tr>
+        <td>12:30 - 13:30</td>
+        <td class="ipoi">IPOI</td>
+        <td class="ang">AN</td>
+        <td class="si">SI</td>
+    </tr>
 </table>
 
 </body>
 </html>
+
 
 
 
